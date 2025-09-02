@@ -11,7 +11,11 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["pqcrypto"]
+dependencies = [
+    "pqcrypto",
+    "PyNaCl",
+    "cryptography"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
